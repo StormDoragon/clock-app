@@ -1,0 +1,23 @@
+{
+  "name": "clock-app",
+  "version": "1.0.0",
+  "description": "A clock application that displays the current time and Muslim prayer times.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0",
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.7.10"
+  },
+  "author": "",
+  "license": "ISC"
+}
